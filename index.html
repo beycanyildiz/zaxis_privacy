@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="ZAXIS: İzometrik Refleks Gizlilik Politikası">
+<title>ZAXIS: İzometrik Refleks — Gizlilik Politikası</title>
+<style>
+  :root {
+    --bg: #f4f7fb;
+    --card: #ffffff;
+    --text: #1b2433;
+    --muted: #5a6779;
+    --accent: #0a7fb5;
+    --border: rgba(20, 40, 70, 0.12);
+    --todo-bg: #fff3b0;
+    --todo-text: #5c4300;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #05070a;
+      --card: #0c121d;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: rgba(255, 255, 255, 0.09);
+      --todo-bg: #5c4300;
+      --todo-text: #ffe69a;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    padding: 40px 20px calc(40px + env(safe-area-inset-bottom, 0px));
+    -webkit-text-size-adjust: 100%;
+  }
+  .container { max-width: 760px; margin: 0 auto; }
+  .badge {
+    display: inline-block;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 4px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 6px; }
+  .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  .summary {
+    background: var(--card);
+    border: 1px solid var(--accent);
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+  }
+  .summary h2 { margin-bottom: 8px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin-bottom: 16px;
+  }
+  h2 { font-size: 17px; font-weight: 700; color: var(--accent); margin-bottom: 8px; }
+  p, li { font-size: 15px; }
+  p + p { margin-top: 10px; }
+  ul { margin: 8px 0 0 20px; }
+  li + li { margin-top: 4px; }
+  a { color: var(--accent); }
+  mark.todo {
+    background: var(--todo-bg);
+    color: var(--todo-text);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  .lang { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--border); }
+  footer { text-align: center; margin-top: 36px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="badge">GİZLİLİK POLİTİKASI</div>
+  <h1>ZAXIS: İzometrik Refleks</h1>
+  <div class="subtitle">Son güncelleme: 14 Ekim 2026 &nbsp;•&nbsp; Yürürlük: Uygulamanın bu sürümünden itibaren</div>
+
+  <div class="summary">
+    <h2>Kısaca</h2>
+    <p>ZAXIS bir hesap oluşturmanızı istemez; adınızı, e-postanızı, telefonunuzu veya konumunuzu toplamaz. Oyun ilerlemeniz cihazınızda saklanır ve isterseniz kendi iCloud hesabınızla senkronize edilir. Satın alımlar Apple üzerinden yapılır. Uygulama reklam göstermez ve üçüncü taraf reklam veya analiz yazılımı içermez.</p>
+  </div>
+
+  <div class="card">
+    <h2>1. Veri Sorumlusu ve İletişim</h2>
+    <p>Bu uygulamanın geliştiricisi Beycan Yıldız (“biz”) olup gizlilikle ilgili tüm sorularınız için <a href="mailto:zaxisdestek@gmail.com">zaxisdestek@gmail.com</a> adresine yazabilirsiniz.</p>
+  </div>
+
+  <div class="card">
+    <h2>2. Doğrudan Topladığımız Veriler</h2>
+    <p>ZAXIS, kendi sunucularımıza kişisel veri göndermez ve bir kullanıcı hesabı sistemi bulundurmaz. Ad, soyad, e-posta, telefon numarası, konum, rehber, fotoğraf veya mikrofon verisi istemez ve işlemez.</p>
+  </div>
+
+  <div class="card">
+    <h2>3. Cihazınızda Saklanan Oyun Verileri</h2>
+    <p>Yüksek skorunuz, kombo rekorunuz, toplanan yakut ve elmaslar, açılan küpler, başarım ilerlemeniz, ses/titreşim ayarlarınız ve satın alım durumunuz cihazınızda yerel olarak saklanır. Bu veriler iOS’un cihaz koruması altındadır ve bize iletilmez.</p>
+    <p>Ana ekran bileşeni (widget) kullanıyorsanız, bileşenin ilerlemenizi gösterebilmesi için bazı oyun verileri uygulama ile bileşen arasında Apple’ın App Group mekanizması üzerinden cihaz içinde paylaşılır.</p>
+    <p>Uygulamayı cihazınızdan sildiğinizde yerel verileriniz de silinir.</p>
+  </div>
+
+  <div class="card">
+    <h2>4. iCloud Senkronizasyonu</h2>
+    <p>Oyun ilerlemeniz, Apple’ın iCloud anahtar-değer depolama altyapısı (NSUbiquitousKeyValueStore) aracılığıyla yalnızca sizin Apple hesabınız altında cihazlarınız arasında eşitlenebilir. Bu veriler Apple tarafından işlenir; biz bu verilere erişemeyiz. iCloud verilerinizi <em>Ayarlar &gt; Apple Kimliği &gt; iCloud &gt; Depolamayı Yönet</em> bölümünden yönetebilir veya silebilirsiniz.</p>
+  </div>
+
+  <div class="card">
+    <h2>5. Game Center</h2>
+    <p>Game Center’a giriş yaptıysanız skorlarınız ve başarımlarınız Apple’ın GameKit sistemi üzerinden Game Center’a gönderilebilir. Oyuncu adınız ve görünürlük ayarlarınız Apple’ın Game Center ayarlarına göre yönetilir. Bu veriler Apple’ın gizlilik politikasına tabidir.</p>
+  </div>
+
+  <div class="card">
+    <h2>6. Uygulama İçi Satın Alımlar</h2>
+    <p>Elmas paketleri, ekstra sandık, ömürlük VIP ve prestij küpleri gibi tüm satın alımlar Apple’ın StoreKit sistemi üzerinden gerçekleştirilir. Kart ve ödeme bilgileriniz Apple tarafından işlenir; bize hiçbir zaman iletilmez. Cihazınızda yalnızca satın alımınızın doğrulanması için Apple’dan gelen işlem bilgisi kullanılır. Kalıcı satın alımlarınızı Ayarlar’daki <strong>“Satın Alımları Geri Yükle”</strong> seçeneğiyle yeniden etkinleştirebilirsiniz. İade talepleri Apple üzerinden yönetilir.</p>
+    <p>Rastgele ödül içeren sandıkların kazanma olasılıkları, satın almadan önce ilgili ekranda gösterilir.</p>
+  </div>
+
+  <div class="card">
+    <h2>7. Reklamlar ve İzleme</h2>
+    <p>Bu sürümde ZAXIS reklam göstermez ve üçüncü taraf reklam ya da analiz yazılımı (SDK) içermez. Sizi diğer uygulama ve web siteleri arasında izlemez; bu nedenle iOS’un “İzleme” izni de istenmez. İleride reklam eklenmesi hâlinde bu politika önceden güncellenir ve gerekli izinler sizden talep edilir.</p>
+  </div>
+
+  <div class="card">
+    <h2>8. Bildirimler</h2>
+    <p>“Akıllı Bildirimler” açıksa ücretsiz sandığınız hazır olduğunda veya görevler yenilendiğinde cihazınızda bildirim gösterilir. Bu bildirimler cihazınızda yerel olarak planlanır; bildirim izni ilk kullanımda sizden istenir ve Ayarlar’dan dilediğiniz zaman kapatabilirsiniz.</p>
+  </div>
+
+  <div class="card">
+    <h2>9. Çocukların Gizliliği</h2>
+    <p>ZAXIS, çocuklardan bilerek kişisel veri toplamaz. Uygulama, 13 yaşın altındaki çocuklara özel olarak yönelik değildir. Bir ebeveyn veya vasi olarak çocuğunuzun bize kişisel bilgi verdiğini düşünüyorsanız yukarıdaki iletişim adresinden bize ulaşın; gerekli işlemi yaparız. Çocuğunuzun uygulama içi satın alım yapmasını Apple’ın “Ekran Süresi” ve “Satın Alma Sorusu” ayarlarıyla sınırlayabilirsiniz.</p>
+  </div>
+
+  <div class="card">
+    <h2>10. Verilerin Paylaşımı ve Satışı</h2>
+    <p>Kişisel verilerinizi satmayız. Verileriniz, yalnızca bu politikada açıklanan Apple hizmetleri (iCloud, Game Center, App Store) üzerinden ve Apple’ın kendi politikaları kapsamında işlenir.</p>
+  </div>
+
+  <div class="card">
+    <h2>11. Haklarınız</h2>
+    <p>Bulunduğunuz ülkenin mevzuatına (ör. 6698 sayılı KVKK, AB GDPR) göre verilerinize erişme, düzeltme, silme ve işlenmesine itiraz etme haklarına sahip olabilirsiniz. Biz kişisel veri toplamadığımız için çoğu veri cihazınızda ve kendi iCloud/Game Center hesabınızdadır; bunları yukarıda açıklanan şekilde kendiniz yönetebilirsiniz. Başka bir talebiniz için iletişim adresimize yazabilirsiniz.</p>
+  </div>
+
+  <div class="card">
+    <h2>12. Politika Değişiklikleri</h2>
+    <p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişiklikler bu sayfada ve sayfanın başındaki “Son güncelleme” tarihinde belirtilir.</p>
+  </div>
+
+  <div class="lang">
+    <h2>English Summary</h2>
+    <p>ZAXIS: Isometric Reflex does not require an account and does not collect your name, email, phone number or location. Game progress is stored on your device and may sync through your own iCloud account (key-value storage); we cannot access it. Game Center scores and achievements are handled by Apple. All in-app purchases are processed by Apple; we never receive payment details, and odds for randomized rewards are shown before purchase. The app shows no ads, contains no third-party advertising or analytics SDKs, and does not track you across apps or websites. The app is not directed at children under 13 and does not knowingly collect their personal information. Contact: <a href="mailto:zaxisdestek@gmail.com">zaxisdestek@gmail.com</a>.</p>
+  </div>
+
+  <footer>&copy; 2026 Beycan Yıldız. Tüm hakları saklıdır.</footer>
+</div>
+</body>
+</html>
